@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es5",
+    "declaration": true,
+    "esModuleInterop": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "jsx": "react",
+    "noUnusedLocals": true,
+    "sourceMap": true,
+    "strict": true,
+    "typeRoots": ["node_modules/@types"]
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "extends": "../tsconfig.json",
+  "compilerOptions": {
+    "outDir": ".ts-out",
+    "rootDirs": ["../components", "../stories"],
+    "moduleResolution": "node",
+    "lib": ["es5", "es6", "es7", "es2017", "dom"]
+
+  },
+  "include": ["../components/**/*"]
+}
